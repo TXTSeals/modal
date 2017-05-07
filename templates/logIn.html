@@ -1,0 +1,14 @@
+
+<ion-header-bar class="bar bar-header bar-positive animated fadeInRight">
+  <a href="index.html" class="button icon-left ion-chevron-left button-clear button-light" style="color: white;"></a>
+  <h1 class="title">Look For Your Name</h1>
+</ion-header-bar>
+
+<div id="userContainer" ng-repeat="user in users" ng-click = "setCurrentUser(user)" class="animated fadeInLeft">
+  <div class="newUser">
+    <a class="userLogin item item-thumbnail-left" ui-sref="checkIn">
+      <img src="http://orig05.deviantart.net/93f7/f/2016/124/e/b/pixelated_swordfish_robot_by_shojoe-da1aumr.png">
+      <h2 class="userName">{{user.name}}</h2>
+    </a>
+  </div>
+</div>

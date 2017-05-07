@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One');
+
+
+body{
+  position: absolute;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+/* Home Page's CSS */
+#homePage{
+  width: 100%;
+  height: 100%;
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: fixed;
+}
+
+#buttonContainer{
+  text-align: center;
+  display: block;
+}
+.button.button-positive{
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.button.button-positive.button-outline{
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 30px;
+  height: 75px;
+  font-size: 30px;
+}
+.button.button-positive.button-outline:hover{
+  color: white;
+  background-color: #387ef5;
+  transition: .5s;
+}
+
+#logo{
+  font-family: 'Rubik Mono One', sans-serif;
+  color: #387ef5;
+  letter-spacing: 0.5px;
+  font-size: 150px;
+  text-align: center;
+}
+
+/* Login Page CSS */
+#loginHeader{
+  text-align: center;
+  background-color: #d7d7d7;
+}
+
+#loginTitle{
+  display: inline-block;
+  font-size: 24px;
+  color: #3f3f3f;
+}
+img{
+  border-radius: 50%;
+}
+.userLogin{
+  border-bottom: #f8f8f8;
+  margin-top: 40px;
+  margin-bottom: -40px;
+}
+.userName{
+  padding-left: 3%;
+}
+.bar{
+  position: fixed;
+}
+h4{
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+h2{
+  padding-bottom: 10px;
+}
+.list{
+  margin-top: -45px;
+}
+h1{
+  text-align: center;
+}
+
+#logInSubmitButton{
+  display: block;
+  margin: auto;
+}
+.list:last-child.card {
+    z-index: 3;
+    margin-top: 25%;
+}
+
+#background{
+  z-index:2;
+  padding-top:100px;
+  position:fixed;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  overflow:auto;
+  background-color:rgb(0,0,0);
+  background-color:rgba(0,0,0,0.4);
+}
